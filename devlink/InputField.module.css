@@ -1,0 +1,29 @@
+.form-text-input {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  padding: 16px 8px 16px 24px;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(230, 238, 255, 1);
+  border-radius: 16px;
+
+  background-color: rgba(230, 238, 255, 0);
+
+  color: rgba(64, 125, 255, 1);
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 500;
+}
+
+.form-text-input::placeholder {
+  color: rgba(64, 125, 255, 1);
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 500;
+}

@@ -1,0 +1,28 @@
+.section-header_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.vectors-wrapper {
+  display: flex;
+  width: 180px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  object-fit: cover;
+}
+
+.text-heading-h2 {
+  color: rgba(0, 113, 255, 1);
+  font-size: 56px;
+  line-height: 57.6px;
+  font-weight: 700;
+  text-align: center;
+}
